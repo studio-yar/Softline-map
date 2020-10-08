@@ -1,0 +1,79 @@
+@media (max-width: 374px)
+{
+    /*---------------
+        Main styles
+    ---------------*/
+    .line_tabs.line_tabs2 button
+    {
+        font-size: 12px;
+        line-height: 12px;
+    }
+
+
+    .page_title
+    {
+        font-size: 28px;
+    }
+
+    .subTitle
+    {
+        font-size: 16px;
+    }
+    /*---------------
+        Header
+    ---------------*/
+    header .user_wrap
+    {
+        margin-left: 25px;
+    }
+
+    /*---------------
+        Main section
+    ---------------*/
+    .decisions_description .vendors .title
+    {
+        font-size: 22px;
+        line-height: 22px;
+    }
+
+    .employee
+    {
+        padding-right: 19px;
+        padding-left: 19px;
+    }
+
+    .employee .top_title
+    {
+        width: calc(100% + 38px);
+        margin-left: -19px;
+        padding-right: 19px;
+        padding-left: 19px;
+    }
+
+    .carousel_info .slide .item
+    {
+        padding-left: 50px;
+    }
+
+    .carousel_infoSmall .carousel.full .slide .item
+    {
+        padding-left: 50px;
+    }
+
+    .filter .body .box .checkbox
+    {
+        width: 100%;
+    }
+
+
+    .vendor .site_link span
+    {
+        display: block;
+
+        width: 100%;
+        margin-right: 0;
+    }
+    /*---------------
+        Footer
+    ---------------*/
+}

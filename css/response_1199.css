@@ -1,0 +1,119 @@
+@media (max-width: 1199px)
+{
+    /*---------------
+        Main styles
+    ---------------*/
+    .main_tabs{
+        margin-left: -18px;
+    }
+
+    .main_tabs button{
+        margin-left: 18px;
+        width: calc(100% - 18px);
+    }
+    /*---------------
+        Header
+    ---------------*/
+
+    /*---------------
+        Main section
+    ---------------*/
+    .content
+    {
+        width: calc(100% - 346px);
+    }
+
+    .employee
+    {
+        padding-right: 8px;
+        padding-left: 8px;
+    }
+
+    .employee .top_title
+    {
+        width: calc(100% + 16px);
+        margin-left: -8px;
+        padding-right: 8px;
+        padding-left: 8px;
+    }
+
+
+    .information .text_block .cols
+    {
+        padding: 0;
+    }
+
+    .result_page .filter
+    {
+        width: 100%;
+        margin-top: 30px;
+
+        order: -1;
+    }
+    .result_page .result
+    {
+        width: 100%;
+    }
+
+    .filter form
+    {
+        display: flex;
+
+        justify-content: space-between;
+        align-items: flex-start;
+        align-content: flex-start;
+        flex-wrap: wrap;
+    }
+    .filter .head
+    {
+        border: none;
+
+        order: -2;
+        align-self: center;
+    }
+    .filter .foot
+    {
+        display: flex;
+
+        border-top: none;
+
+        order: -1;
+        align-self: center;
+        justify-content: flex-end;
+        align-items: center;
+        align-content: center;
+    }
+    .filter .foot .reset
+    {
+        margin-top: 0;
+        margin-left: 15px;
+    }
+    .filter .body
+    {
+        display: flex;
+
+        width: 100%;
+        padding: 0;
+
+        border-top: 1px solid #ebebeb;
+
+        justify-content: flex-start;
+        align-items: flex-start;
+        align-content: flex-start;
+        flex-wrap: wrap;
+    }
+    .filter .body .box
+    {
+        width: calc(100% / 3);
+        padding: 25px 15px;
+
+        border-left: 1px solid #ebebeb;
+    }
+    .filter .body .box:nth-child(3n+1)
+    {
+        border-left: none;
+    }
+    /*---------------
+        Footer
+    ---------------*/
+}

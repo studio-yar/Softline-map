@@ -1,0 +1,480 @@
+@media (max-width: 1023px)
+{
+    /*---------------
+        Main styles
+    ---------------*/
+    .main_tabs
+    {
+        margin-left: -13px;
+    }
+    .main_tabs button
+    {
+        font-size: 16px;
+        line-height: 19px;
+
+        min-height: 45px;
+        margin-left: 13px;
+
+        width: calc(100% - 13px);
+    }
+    .line_tabs
+    {
+        width: calc(100% + 40px);
+    }
+    .line_tabs:after
+    {
+        display: block;
+
+        width: 40px;
+        height: 1px;
+
+        content: '';
+
+        flex-shrink: 0;
+    }
+
+    .line_tabs button
+    {
+        margin-bottom: 0;
+    }
+
+    .line_tabs.line_tabs2
+    {
+        width: 100%;
+    }
+    .line_tabs.line_tabs2 button
+    {
+        font-size: 16px;
+        line-height: 16px;
+    }
+    .line_tabs.line_tabs2:after
+    {
+        display: none;
+    }
+
+    .owl-carousel .owl-nav button.owl-prev
+    {
+        left: 0;
+    }
+    .owl-carousel .owl-nav button.owl-next
+    {
+        right: 0;
+    }
+
+
+    .content.big
+    {
+        width: 100%;
+    }
+    /*---------------
+        Header
+    ---------------*/
+    header
+    {
+        padding: 24px 0;
+    }
+    header .logo
+    {
+        width: 155px;
+    }
+    header .logo_wrap .logo
+    {
+        margin-right: 17px;
+    }
+    header .logo_wrap .logo_text
+    {
+        font-size: 16px;
+        line-height: 16px;
+    }
+
+
+    .head_inner .menu .item + .item
+    {
+        margin-left: 30px;
+    }
+
+    .head_inner .menu .item:last-child
+    {
+        padding-right: 30px;
+    }
+
+    /*---------------
+        Main section
+    ---------------*/
+    .search_box .main_title
+    {
+        display: none;
+    }
+    .search_box .note
+    {
+        display: none;
+    }
+
+    .section_main .cont
+    {
+        flex-direction: column;
+
+        align-items: stretch;
+        align-content: stretch;
+    }
+
+    .content
+    {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .section_main .cont .aside
+    {
+        width: 100%;
+        margin-top: 50px;
+
+        order: 2;
+    }
+
+    .trees
+    {
+        margin-top: 50px;
+    }
+    .trees .line_tabs
+    {
+        margin-top: 30px;
+    }
+
+    .decisions_tree .carousel.owl-carousel
+    {
+        max-width: 586px;
+        margin: 0 auto;
+        padding: 0 108px;
+    }
+    .decisions_tree .counter
+    {
+        display: block;
+    }
+
+    .responsible_tree .counter
+    {
+        display: block;
+    }
+    .responsible_tree .carousel
+    {
+        max-width: 687px;
+        margin: 0 auto;
+        padding: 0 115px;
+    }
+
+    .vendors_tree .carousel
+    {
+        max-width: 688px;
+        margin: 25px auto 0;
+        padding: 0 65px;
+    }
+    .vendors_tree .thumbs .grid
+    {
+        margin-left: -15px;
+    }
+    .vendors_tree .thumbs .grid .item
+    {
+        margin-left: 15px;
+    }
+    .vendors_tree .thumbs .grid .item img
+    {
+        display: block;
+
+        max-width: 100%;
+        max-height: 100%;
+
+        transition: .2s linear;
+
+        opacity: .6;
+
+        filter: grayscale(100%);
+    }
+
+    .decisions_description
+    {
+        margin-top: 64px;
+        padding: 50px 25px;
+    }
+    .decisions_description .title
+    {
+        max-width: 505px;
+        margin: 0 auto;
+    }
+    .decisions_description .note
+    {
+        text-align: left;
+    }
+    .decisions_description .vendors .grid
+    {
+        margin-top: 25px;
+    }
+    .decisions_description .staff
+    {
+        margin-top: 40px;
+    }
+    .decisions_description .staff .officer
+    {
+        padding-bottom: 34px;
+    }
+    .decisions_description .staff .officer:before
+    {
+        height: 20px;
+    }
+    .decisions_description .staff .officer_area
+    {
+        font-size: 14px;
+        line-height: 14px;
+    }
+    .decisions_description .staff .officer_name
+    {
+        font-size: 14px;
+        line-height: 14px;
+    }
+    .decisions_description .staff .officer_position
+    {
+        font-size: 14px;
+        line-height: 14px;
+    }
+    .decisions_description .staff .staff_inner:before
+    {
+        width: calc(100% - 25% + 8px);
+    }
+    .decisions_description .staff .staff_inner .grid
+    {
+        margin-left: -12px;
+    }
+    .decisions_description .staff .staff_inner .grid .officer
+    {
+        width: calc(25% - 12px);
+        margin-left: 12px;
+        padding-top: 36px;
+    }
+
+    .news
+    {
+        padding: 25px 12px;
+    }
+    .news .title
+    {
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .news .items
+    {
+        display: flex;
+
+        margin-bottom: -25px;
+        margin-left: -14px;
+
+        justify-content: flex-start;
+        align-items: flex-start;
+        align-content: flex-start;
+        flex-wrap: wrap;
+    }
+    .news .items .item
+    {
+        width: calc(100% / 3 - 14px);
+        margin-bottom: 25px;
+        margin-left: 14px;
+    }
+    .news .items .item + .item
+    {
+        margin-top: 0;
+    }
+    .news .link_other a
+    {
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+
+    .section_employee .employee
+    {
+        width: 34.2%;
+    }
+
+    .section_employee .employee_tasks
+    {
+        width: calc(65.8% - 10px);
+    }
+
+    .employee
+    {
+        padding-right: 5px;
+        padding-left: 15px;
+    }
+
+    .employee .top_title
+    {
+        font-size: 16px;
+
+        width: calc(100% + 20px);
+        margin-left: -15px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .employee .photo
+    {
+        margin-top: 25px;
+    }
+
+    .employee .info
+    {
+        font-size: 14px;
+        line-height: 17px;
+
+        margin-top: 20px;
+    }
+
+    .employee .info + .info
+    {
+        margin-top: 10px;
+    }
+
+    .employee .contact
+    {
+        font-size: 14px;
+        line-height: 17px;
+
+        margin-top: 10px;
+    }
+
+    .employee .contact .line + .line
+    {
+        margin-top: 10px;
+    }
+
+    .employee * + .title
+    {
+        margin-top: 20px;
+    }
+
+    .employee .title
+    {
+        font-size: 14px;
+    }
+
+    .employee .items
+    {
+        font-size: 14px;
+        line-height: 17px;
+
+        margin-top: 10px;
+    }
+
+
+    .employee_tasks .title
+    {
+        font-size: 14px;
+    }
+
+    .employee_tasks .bord
+    {
+        min-width: 430px;
+    }
+
+    .employee_tasks .table_flex .thead .col
+    {
+        font-size: 12px;
+    }
+
+    .employee_tasks .table_flex .tbody .col
+    {
+        font-size: 12px;
+    }
+
+
+    .explanation
+    {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .explanation .explanation_title
+    {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .explanation .explanation_info .line
+    {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .carousel_infoSmall .carousel,
+    .carousel_infoMiddle .carousel
+    {
+        max-width: 570px;
+        padding: 0 120px;
+    }
+
+    .carousel_infoBig .carousel.full
+    {
+        width: 100%;
+        padding: 0 40px;
+    }
+
+    .carousel_infoSmall .carousel.full,
+    .carousel_infoMiddle .carousel.full
+    {
+        width: 100%;
+    }
+
+    .carousel_info .slide .item
+    {
+        padding-left: 70px;
+    }
+
+    .carousel_infoSmall .carousel.full .slide .item
+    {
+        padding-left: 70px;
+    }
+
+
+    .information .tab_content > .bord
+    {
+        padding: 29px;
+    }
+
+
+    .carousel_infoSmall .counter,
+    .carousel_infoMiddle .counter
+    {
+        display: block;
+    }
+
+    .result_page .breadcrumbs
+    {
+        margin: 40px 0;
+    }
+
+    .result .items .item
+    {
+        padding: 25px;
+    }
+    .result .items .item .top .title
+    {
+        max-width: 465px;
+    }
+    .result .items .item .top .item_category
+    {
+        margin-top: 7px;
+    }
+
+
+    .filter .body .box
+    {
+        padding-left: 40px;
+    }
+    /*---------------
+        Footer
+    ---------------*/
+    footer
+    {
+        margin-top: 50px;
+        padding: 30px 0;
+    }
+}

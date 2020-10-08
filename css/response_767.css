@@ -1,0 +1,401 @@
+@media (max-width: 767px)
+{
+    /*---------------
+        Main styles
+    ---------------*/
+    .cont
+    {
+        padding: 0 15px;
+    }
+
+
+    .page_title
+    {
+        font-size: 32px;
+    }
+
+    /*---------------
+        Header
+    ---------------*/
+    header .user_wrap .user .name
+    {
+        display: none;
+    }
+    header .user_wrap .links
+    {
+        margin-left: 5px;
+    }
+
+
+    .head_inner
+    {
+        margin-top: 38px;
+    }
+
+    .head_inner .menu
+    {
+        width: calc(100% + 30px);
+        margin-left: -15px;
+        padding-left: 15px;
+    }
+
+    .head_inner .menu .item:last-child
+    {
+        padding-right: 15px;
+    }
+
+    /*---------------
+        Main section
+    ---------------*/
+    .decisions_tree .carousel.owl-carousel
+    {
+        padding: 0 40px;
+    }
+
+    .responsible_tree .carousel
+    {
+        padding: 0 40px;
+    }
+
+    .vendors_tree .thumbs .grid
+    {
+        margin-left: -14px;
+
+        flex-wrap: wrap;
+    }
+    .vendors_tree .thumbs .grid .item
+    {
+        display: flex;
+
+        width: calc(100% / 6 - 14px);
+        height: 30px;
+        margin-left: 14px;
+
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        flex-wrap: wrap;
+    }
+    .vendors_tree .carousel
+    {
+        padding: 0;
+    }
+    .vendors_tree .item .body .label_radio .radio_text
+    {
+        min-height: 60px;
+        padding: 15px 13px;
+    }
+    .vendors_tree .carousel.owl-carousel
+    {
+        margin-top: 50px;
+    }
+    .vendors_tree .carousel.owl-carousel .owl-nav button
+    {
+        top: -40px;
+
+        margin-top: 0;
+    }
+
+    .decisions_description .staff .officer
+    {
+        padding: 0;
+
+        text-align: left;
+    }
+    .decisions_description .staff .officer.chief:before
+    {
+        display: none;
+    }
+    .decisions_description .staff .staff_inner
+    {
+        max-width: 240px;
+        margin-top: 48px;
+    }
+    .decisions_description .staff .staff_inner:before
+    {
+        top: auto;
+        bottom: 50px;
+        left: 0;
+
+        width: 1px;
+        height: calc(100% - 22px);
+
+        transform: translateX(0);
+    }
+    .decisions_description .staff .staff_inner .grid
+    {
+        margin-bottom: 0;
+    }
+    .decisions_description .staff .staff_inner .grid .officer
+    {
+        width: 100%;
+        margin-bottom: 0;
+        padding: 0;
+        padding-left: 50px;
+    }
+    .decisions_description .staff .staff_inner .grid .officer + .officer
+    {
+        margin-top: 40px;
+    }
+    .decisions_description .staff .staff_inner .grid .officer:before
+    {
+        top: 50%;
+        left: 0;
+
+        width: 30px;
+        height: 1px;
+
+        transform: translate(0, -50%);
+    }
+    .decisions_description .staff .staff_inner .grid .officer:last-child:before
+    {
+        top: auto;
+        bottom: 50px;
+
+        transform: none;
+    }
+
+    .news .items .item
+    {
+        width: calc(100% / 2 - 14px);
+    }
+
+
+    .hr
+    {
+        display: none;
+    }
+
+    .section_employee
+    {
+        margin-top: 20px;
+    }
+
+    .section_employee .employee
+    {
+        width: 100%;
+    }
+
+    .employee
+    {
+        padding-right: 24px;
+        padding-left: 24px;
+    }
+
+    .employee .top_title
+    {
+        font-size: 16px;
+
+        width: calc(100% + 48px);
+        margin-left: -24px;
+        padding-right: 24px;
+        padding-left: 24px;
+    }
+
+    .employee .top_title
+    {
+        font-size: 18px;
+
+        background: #ebebeb;
+    }
+
+    .employee .photo
+    {
+        width: 105px;
+        height: 105px;
+    }
+
+    .employee .info
+    {
+        font-size: 16px;
+        line-height: 19px;
+
+        margin-top: 20px;
+    }
+
+    .employee .info + .info
+    {
+        margin-top: 12px;
+    }
+
+    .employee .contact
+    {
+        font-size: 16px;
+        line-height: 19px;
+
+        margin-top: 12px;
+    }
+
+    .employee .contact .line + .line
+    {
+        margin-top: 12px;
+    }
+
+    .employee .title
+    {
+        font-size: 16px;
+    }
+
+    .employee * + .title
+    {
+        margin-top: 20px;
+    }
+
+    .employee .items
+    {
+        margin-top: 12px;
+    }
+
+    .employee .items .item + .item
+    {
+        margin-top: 12px;
+    }
+
+    .section_employee .employee_tasks
+    {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .employee_tasks .bord
+    {
+        min-width: 590px;
+    }
+
+    .employee_tasks .table_flex .thead .col
+    {
+        font-size: 16px;
+    }
+
+    .employee_tasks .table_flex .tbody .col
+    {
+        font-size: 16px;
+    }
+
+    .carousel_infoMiddle
+    {
+        margin-top: 35px;
+    }
+
+    .carousel_infoBig .counter
+    {
+        display: block;
+    }
+
+    .carousel_info .carousel
+    {
+        max-width: 410px;
+        padding: 0 40px;
+    }
+
+
+    .tabs_accordion .main_tabs
+    {
+        display: none;
+    }
+
+    .tabs_accordion .open_btn
+    {
+        display: block;
+    }
+
+    .tabs_accordion .tab_content
+    {
+        display: none;
+    }
+
+    .tabs_accordion .tab_content
+    {
+        visibility: visible;
+        overflow: visible;
+
+        height: auto;
+
+        pointer-events: all;
+
+        opacity: 1;
+    }
+
+    .tabs_accordion .tab_content.active
+    {
+        display: block;
+    }
+
+    .item_accordion + .item_accordion
+    {
+        margin-top: 15px;
+    }
+
+    .information .tab_content > .bord
+    {
+        padding: 23px;
+    }
+
+    .text_block .cols .col
+    {
+        width: 100%;
+        max-width: none;
+    }
+
+    .filter .body .box
+    {
+        display: flex;
+
+        width: 100%;
+        padding: 20px;
+
+        border-left: none;
+
+        justify-content: flex-start;
+        align-items: flex-start;
+        align-content: flex-start;
+        flex-wrap: wrap;
+    }
+    .filter .body .box .checkbox
+    {
+        width: 50%;
+    }
+    .filter .body .box .checkbox.choice_js
+    {
+        width: 100%;
+    }
+    .filter .body .box + .box
+    {
+        border-top: 1px solid #ebebeb;
+    }
+
+    .result .items .item .title
+    {
+        font-size: 18px;
+    }
+
+
+    .vendor .vendor_box
+    {
+        padding: 31px 27px;
+    }
+    /*---------------
+        Footer
+    ---------------*/
+    footer
+    {
+        padding: 20px 0;
+    }
+    footer .adress
+    {
+        width: 100%;
+        margin-bottom: 15px;
+
+        text-align: center;
+
+        order: -1;
+    }
+    footer .copy
+    {
+        width: 100%;
+
+        text-align: center;
+
+        justify-content: center;
+    }
+}
